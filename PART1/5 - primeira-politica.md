@@ -22,7 +22,7 @@
     {
       "Sid": "Stmt1647082799336",
       "Action": [
-        "s3:AbortMultipartUpload"
+        "s3:createBucket"
       ],
       "Principal": {
                 "AWS": "**"
