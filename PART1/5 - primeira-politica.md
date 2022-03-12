@@ -22,13 +22,13 @@
     {
       "Sid": "Stmt1647082799336",
       "Action": [
-        "s3:createBucket"
+        "s3:PutObject"
       ],
       "Principal": {
                 "AWS": "**"
             },
       "Effect": "Allow",
-      "Resource": "*",
+      "Resource": ["arn:aws:s3:::leandro12345","arn:aws:s3:::leandro12345/*"]
       "Condition": {
         "IpAddress": {
           "aws:SourceIp": "10.10.10.10/32"
