@@ -30,7 +30,7 @@
 
 * Clique em "Users"
 * Clique em "Add Users"
-* Informe o nome do usuário com "worhshopadmin"
+* Informe o nome do usuário com "workshopadmin"
 * Selecione a opção de Console ou Password e informe uma senha.
 * Adicione a permissão de "Administrador Access"
 * Informe as tags
